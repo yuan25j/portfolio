@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
-import About from "./components/About/About";
-import Experience from "./components/Experience/Experience";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
-import Projects from "./components/Projects/Projects";
-import Skills from "./components/Skills/Skills";
 import "./App.css";
-import Contact from "./components/Contact/Contact";
+import Home from "./pages/Home";
+import ProjectsPage from "./pages/ProjectsPage";
+
 const App = () => {
   const [theme, setTheme] = useState("light");
 
@@ -28,17 +27,18 @@ const App = () => {
   }, []);
 
   return (
-    <div className="app" id={`${theme}`}>
-      <main>
-        <Navbar toggleTheme={toggleTheme} theme={theme} />
-        <About />
-        <Projects />
-        <Experience />
-        <Skills />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="app" id={`${theme}`}>
+        <main>
+          <Navbar toggleTheme={toggleTheme} theme={theme} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

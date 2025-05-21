@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        Made with ❤️ by <span>Shehab Shalan</span>
+        Made with ❤️ by <span>John Yuan</span>
       </p>
     </footer>
   );

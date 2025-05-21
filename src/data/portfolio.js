@@ -1,49 +1,47 @@
 const about = {
-  title: "Hi 👋 , I am Shehab Shalan",
+  title: "Hi 👋 , I am John Yuan",
   description:
-    "I am a full stack developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
-  github: "https://github.com/shehabshalan",
-  linkedin: "https://www.linkedin.com/in/shehabshalan/",
-  cv: "#",
+    "I'm a MS/BS Computer Science student at UNC Chapel Hill with a strong background in software engineering. I'm passionate about building innovative solutions and have experience with web development, cloud technologies, and data science.",
+  github: "https://github.com/yuan25j",
+  linkedin: "https://www.linkedin.com/in/johnyuan2026/",
+  cv: "https://yuan25j.github.io/portfolio",
 };
 
 const projects = {
   title: "Projects",
   personalProjects: [
     {
-      title: "Youtube Clone",
+      title: "UNC COMP Course Scheduler",
       short:
-        "Features Firebase authentication, video upload, and video streaming.",
+        "An integer linear programming system to generate optimal class schedules.",
       description:
-        "it is a video-sharing app built using Firebase for authentication, and data persistence. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
-      technologies: ["#React.js", "#MUI", "#Firebase"],
-      github: "#",
+        "Designed and implemented an integer linear programming system using Python to generate optimal class schedules based on professor availabilities, room capacities, and scheduling constraints. Developed a robust database system using SQLite3 and built a responsive frontend with React.js, HTML, and CSS. Integrated secure login functionality and automated deployment with GitHub Actions, following a CI/CD development lifecycle.",
+      technologies: ["#Python", "#SQLite3", "#React.js", "#HTML/CSS", "#GitHub Actions"],
+      github: "https://github.com/yuan25j/portfolio",
       demo: "#",
     },
     {
-      title: "Next.js Blog",
+      title: "Comparative Analysis of LLM Performance",
       short:
-        "Features JWT authentication, headless CMS, and full CRUD operations.",
+        "Analysis comparing Large Language Models with traditional ML techniques.",
       description:
-        "it is a Next.js blog site built using Strapi (a headless CMS). Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! and also lorem",
-      technologies: ["#Next.js", "#MUI", "#Strapi", "#JWT"],
-      github: "#",
+        "Conducted an empirical comparison of Large Language Models (LLMs) and traditional methods such as Logistic Regression, Support Vector Machines (SVMs), and Random Forests for text classification tasks. Evaluated performance using F1 Score, Precision, and Recall; identified performance trade-offs and analyzed root causes of misclassification across models.",
+      technologies: ["#Python", "#LLMs", "#Machine Learning", "#Data Analysis"],
+      github: "https://github.com/yuan25j/IdiosyncrasiesInLLMs",
       demo: "#",
     },
     {
-      title: "File Sharing App",
+      title: "RAG Clickbait Generator",
       short:
-        "Features multi-file upload, sharing links with expiration and document preview.",
+        "A tool for generating engaging, informative headlines using Retrieval Augmented Generation.",
       description:
-        "it is a file sharing app built using the MERN stack. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
+        "Developed a tool leveraging Retrieval Augmented Generation (RAG) to create headlines that are both informative and engaging. Balanced the need for accuracy with captivating language to improve content engagement metrics.",
       technologies: [
-        "#React.js",
-        "#MUI",
-        "#Express.js",
-        "#Node.js",
-        "#MongoDB",
+        "#Python",
+        "#Natural Language Processing",
+        "#RAG"
       ],
-      github: "#",
+      github: "https://github.com/yuan25j/RAGClickbaitGenerator",
       demo: "#",
     },
   ],
@@ -53,11 +51,32 @@ const experience = {
   title: "Experience",
   experiences: [
     {
-      title: "Frontend Developer",
-      company: "XYZ Company",
-      duration: "Mar 2021 - Present",
+      title: "Software Engineering Intern",
+      company: "Truist Financial",
+      duration: "Jun 2024 - Aug 2024",
       description:
-        "I am currently working as a frontend developer at XYZ Company. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
+        "Enhanced the online banking virtual assistant by consolidating shared code across AWS Lambda functions written in Node.js, validating end-to-end functionality, and reducing build times—saving over 200 developer hours monthly. Automated the purging of 30,000 daily outdated records in DynamoDB via CloudFormation, improving data hygiene and operational efficiency across multiple deployments.",
+    },
+    {
+      title: "Teaching Assistant",
+      company: "UNC Computer Science Department",
+      duration: "Aug 2023 - Dec 2024",
+      description:
+        "Facilitated learning for over 300 students in Computer Organization and Digital Logic by conducting office hours, devising assessment questions, and evaluating lab assignments using MIPS assembly, System Verilog, and C.",
+    },
+    {
+      title: "Residential Computing Consultant Manager",
+      company: "Carolina Housing",
+      duration: "Nov 2022 - Present",
+      description:
+        "Lead and mentor 25 employees in the maintenance of university housing technology. Oversee operational logistics, including scheduling, hiring, maintenance of equipment, and new policy creation for the Carolina Gaming Arena. Direct and train teammates to ensure adherence to the Service Level Agreement.",
+    },
+    {
+      title: "Software Engineering Intern",
+      company: "Truist Financial",
+      duration: "Jun 2023 - Aug 2023",
+      description:
+        "Engineered AWS Lambda functions in Node.js to transform internal REST API account data and integrate with external vendor systems, enabling detection of recurring subscriptions through transactional pattern analysis. Deployed and automated extraction of key details from external vendor API response for client facing account insights.",
     },
   ],
 };
@@ -66,26 +85,25 @@ const skills = {
   title: "Skills",
   mySkills: [
     {
-      title: "Languages & Frameworks",
+      title: "Languages",
       skills: [
-        "#HTML",
-        "#CSS",
+        "#Python",
+        "#Java",
         "#JavaScript",
         "#TypeScript",
-        "#React.js",
-        "#Next.js",
-        "#MUI",
-        "#Node.js",
-        "#Express.js",
+        "#SQL",
+        "#C",
+        "#System Verilog",
+        "#MIPS"
       ],
     },
     {
-      title: "Databases",
-      skills: ["#MongoDB", "#PostgreSQL", "#Firebase"],
+      title: "Frameworks & Technologies",
+      skills: ["#React.js", "#Node.js", "#Angular", "#HTML/CSS"],
     },
     {
-      title: "Others",
-      skills: ["#Git", "#Jest", "#CI/CD", "#AdobeXD"],
+      title: "Tools & Platforms",
+      skills: ["#Git", "#AWS", "#Docker", "#Linux", "#CI/CD"],
     },
   ],
 };

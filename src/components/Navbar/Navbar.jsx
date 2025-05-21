@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { MdLightMode, MdNightlight, MdMenu, MdClose } from "react-icons/md";
 
@@ -20,16 +21,19 @@ const mobileMenu = (toggleTheme, theme) => {
               </div>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#experience">Experience</a>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <Link to="/#experience">Experience</Link>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <Link to="/#skills">Skills</Link>
+            </li>
+            <li>
+              <Link to="/#contact">Contact</Link>
             </li>
             <li>
               <a onClick={toggleTheme}>
@@ -48,7 +52,7 @@ const mobileMenu = (toggleTheme, theme) => {
 };
 
 const Navbar = ({ toggleTheme, theme }) => {
-  const logo = "{SS}.";
+  const logo = "{JY}.";
   return (
     <header>
       <nav className="navbar">
@@ -59,16 +63,19 @@ const Navbar = ({ toggleTheme, theme }) => {
         {/* desktop menu */}
         <ul className="nav-list">
           <li>
-            <a href="#projects">Projects</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <Link to="/#experience">Experience</Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Link to="/#skills">Skills</Link>
+          </li>
+          <li>
+            <Link to="/#contact">Contact</Link>
           </li>
           <li>
             <a onClick={toggleTheme}>
