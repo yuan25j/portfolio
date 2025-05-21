@@ -120,3 +120,48 @@ section {
   background-color: #d63aff;
   color: #fff;
 }
+
+.nlp {
+  background-color: #4a6fa5;
+  color: #fff;
+}
+
+.machine-learning {
+  background-color: #9c56b8;
+  color: #fff;
+}
+
+.bert {
+  background-color: #ff5733;
+  color: #fff;
+}
+
+.llms {
+  background-color: #339bff;
+  color: #fff;
+}
+
+.python {
+  background-color: #306998;
+  color: #fff;
+}
+
+.data-analysis {
+  background-color: #00a4b4;
+  color: #fff;
+}
+
+.sqlite {
+  background-color: #003b57;
+  color: #fff;
+}
+
+.github-actions {
+  background-color: #2088ff;
+  color: #fff;
+}
+
+.rag {
+  background-color: #8a2be2;
+  color: #fff;
+}

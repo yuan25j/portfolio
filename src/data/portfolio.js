@@ -11,6 +11,16 @@ const projects = {
   title: "Projects",
   personalProjects: [
     {
+      title: "LLM Fingerprinting & Digital Watermarking",
+      short:
+        "Research on identifying the unique signatures of different LLMs for digital content attribution.",
+      description:
+        "Researched methods for identifying the origin of AI-generated text by detecting unique 'fingerprints' left by different large language models. This research has significant applications in digital watermarking, copyright protection, and content attribution. By fine-tuning BERT classifiers on thousands of LLM outputs across specialized domains (legal, medical, mathematical, and code), we achieved 97%+ accuracy in identifying which model generated a given text. The technology enables content creators to verify authenticity, helps platforms enforce usage policies, and provides a foundation for establishing clear ownership of AI-generated content.",
+      technologies: ["#NLP", "#Machine Learning", "#BERT", "#LLMs", "#Python", "#Data Analysis"],
+      github: "https://github.com/yuan25j/IdiosyncrasiesInLLMs",
+      demo: "https://drive.google.com/file/d/156Fwo-ZKqDqlGk6fFZYVAlACrRr3nh2i/view?usp=sharing",
+    },
+    {
       title: "UNC COMP Course Scheduler",
       short:
         "An integer linear programming system to generate optimal class schedules.",

@@ -14,7 +14,7 @@ git add -A
 git commit -m "deploy"
 
 # Push to GitHub Pages
-git push -f git@github.com:yuan25j/portfolio.git main:gh-pages
+git push -f https://github.com/yuan25j/portfolio.git main:gh-pages
 
 # Return to the project root
 cd .. 

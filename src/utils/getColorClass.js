@@ -36,6 +36,26 @@ const getColorClass = (tech) => {
       return "strapi";
     case "#MUI":
       return "mui";
+    case "#NLP":
+      return "nlp";
+    case "#Machine Learning":
+      return "machine-learning";
+    case "#BERT":
+      return "bert";
+    case "#LLMs":
+      return "llms";
+    case "#Python":
+      return "python";
+    case "#Data Analysis":
+      return "data-analysis";
+    case "#SQLite3":
+      return "sqlite";
+    case "#GitHub Actions":
+      return "github-actions";
+    case "#Natural Language Processing":
+      return "nlp";
+    case "#RAG":
+      return "rag";
     default:
       return "";
   }
