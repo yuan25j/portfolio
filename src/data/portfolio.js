@@ -15,7 +15,7 @@ const projects = {
       short:
         "Research on identifying the unique signatures of different LLMs for digital content attribution.",
       description:
-        "Researched methods for identifying the origin of AI-generated text by detecting unique 'fingerprints' left by different large language models.\nThis research has significant applications in digital watermarking, copyright protection, and content attribution.\nBy fine-tuning BERT classifiers on thousands of LLM outputs across specialized domains (legal, medical, mathematical, and code), we achieved 97%+ accuracy in identifying which model generated a given text.\nThe technology enables content creators to verify authenticity, helps platforms enforce usage policies, and provides a foundation for establishing clear ownership of AI-generated content.",
+        "Researched methods for identifying the origin of AI-generated text by detecting unique 'fingerprints' left by different large language models.\nThis research has significant applications in digital watermarking, copyright protection, and content attribution. We achieved 97%+ accuracy in identifying which model generated a given text.",
       technologies: ["#NLP", "#Machine Learning", "#BERT", "#LLMs", "#Python", "#Data Analysis, #Research"],
       github: "https://github.com/yuan25j/IdiosyncrasiesInLLMs",
       demo: "https://drive.google.com/file/d/156Fwo-ZKqDqlGk6fFZYVAlACrRr3nh2i/view?usp=sharing",
