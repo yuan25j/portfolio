@@ -15,8 +15,8 @@ const projects = {
       short:
         "Research on identifying the unique signatures of different LLMs for digital content attribution.",
       description:
-        "Researched methods for identifying the origin of AI-generated text by detecting unique 'fingerprints' left by different large language models. This research has significant applications in digital watermarking, copyright protection, and content attribution. By fine-tuning BERT classifiers on thousands of LLM outputs across specialized domains (legal, medical, mathematical, and code), we achieved 97%+ accuracy in identifying which model generated a given text. The technology enables content creators to verify authenticity, helps platforms enforce usage policies, and provides a foundation for establishing clear ownership of AI-generated content.",
-      technologies: ["#NLP", "#Machine Learning", "#BERT", "#LLMs", "#Python", "#Data Analysis"],
+        "Researched methods for identifying the origin of AI-generated text by detecting unique 'fingerprints' left by different large language models.\nThis research has significant applications in digital watermarking, copyright protection, and content attribution.\nBy fine-tuning BERT classifiers on thousands of LLM outputs across specialized domains (legal, medical, mathematical, and code), we achieved 97%+ accuracy in identifying which model generated a given text.\nThe technology enables content creators to verify authenticity, helps platforms enforce usage policies, and provides a foundation for establishing clear ownership of AI-generated content.",
+      technologies: ["#NLP", "#Machine Learning", "#BERT", "#LLMs", "#Python", "#Data Analysis, #Research"],
       github: "https://github.com/yuan25j/IdiosyncrasiesInLLMs",
       demo: "https://drive.google.com/file/d/156Fwo-ZKqDqlGk6fFZYVAlACrRr3nh2i/view?usp=sharing",
     },
@@ -25,17 +25,17 @@ const projects = {
       short:
         "An integer linear programming system to generate optimal class schedules.",
       description:
-        "Designed and implemented an integer linear programming system using Python to generate optimal class schedules based on professor availabilities, room capacities, and scheduling constraints. Developed a robust database system using SQLite3 and built a responsive frontend with React.js, HTML, and CSS. Integrated secure login functionality and automated deployment with GitHub Actions, following a CI/CD development lifecycle.",
+        "Designed and implemented an integer linear programming system using Python to generate optimal class schedules based on professor availabilities, room capacities, and scheduling constraints.\nDeveloped a robust database system using SQLite3 and built a responsive frontend with React.js, HTML, and CSS.\nIntegrated secure login functionality and automated deployment with GitHub Actions, following a CI/CD development lifecycle.",
       technologies: ["#Python", "#SQLite3", "#React.js", "#HTML/CSS", "#GitHub Actions"],
       github: "https://github.com/yuan25j/portfolio",
       demo: "#",
     },
     {
-      title: "Comparative Analysis of LLM Performance",
+      title: "Comparative Analysis of LLM Performance vs Traditional ML Techniques",
       short:
         "Analysis comparing Large Language Models with traditional ML techniques.",
       description:
-        "Conducted an empirical comparison of Large Language Models (LLMs) and traditional methods such as Logistic Regression, Support Vector Machines (SVMs), and Random Forests for text classification tasks. Evaluated performance using F1 Score, Precision, and Recall; identified performance trade-offs and analyzed root causes of misclassification across models.",
+        "Conducted an empirical comparison of Large Language Models (LLMs) and traditional methods such as Logistic Regression, Support Vector Machines (SVMs), and Random Forests for text classification tasks.\nEvaluated performance using F1 Score, Precision, and Recall; identified performance trade-offs and analyzed root causes of misclassification across models.",
       technologies: ["#Python", "#LLMs", "#Machine Learning", "#Data Analysis"],
       github: "https://github.com/yuan25j/IdiosyncrasiesInLLMs",
       demo: "#",
@@ -45,7 +45,7 @@ const projects = {
       short:
         "A tool for generating engaging, informative headlines using Retrieval Augmented Generation.",
       description:
-        "Developed a tool leveraging Retrieval Augmented Generation (RAG) to create headlines that are both informative and engaging. Balanced the need for accuracy with captivating language to improve content engagement metrics.",
+        "Developed a tool leveraging Retrieval Augmented Generation (RAG) to create headlines that are both informative and engaging.\nBalanced the need for accuracy with captivating language to improve content engagement metrics.",
       technologies: [
         "#Python",
         "#Natural Language Processing",
@@ -65,7 +65,7 @@ const experience = {
       company: "Truist Financial",
       duration: "Jun 2024 - Aug 2024",
       description:
-        "Enhanced the online banking virtual assistant by consolidating shared code across AWS Lambda functions written in Node.js, validating end-to-end functionality, and reducing build times—saving over 200 developer hours monthly. Automated the purging of 30,000 daily outdated records in DynamoDB via CloudFormation, improving data hygiene and operational efficiency across multiple deployments.",
+        "Enhanced the online banking virtual assistant by consolidating shared code across AWS Lambda functions written in Node.js, validating end-to-end functionality, and reducing build times—saving over 200 developer hours monthly.\nAutomated the purging of 30,000 daily outdated records in DynamoDB via CloudFormation, improving data hygiene and operational efficiency across multiple deployments.",
     },
     {
       title: "Teaching Assistant",
@@ -79,14 +79,14 @@ const experience = {
       company: "Carolina Housing",
       duration: "Nov 2022 - Present",
       description:
-        "Lead and mentor 25 employees in the maintenance of university housing technology. Oversee operational logistics, including scheduling, hiring, maintenance of equipment, and new policy creation for the Carolina Gaming Arena. Direct and train teammates to ensure adherence to the Service Level Agreement.",
+        "Lead and mentor 25 employees in the maintenance of university housing technology.\nOversee operational logistics, including scheduling, hiring, maintenance of equipment, and new policy creation for the Carolina Gaming Arena.\nDirect and train teammates to ensure adherence to the Service Level Agreement.",
     },
     {
       title: "Software Engineering Intern",
       company: "Truist Financial",
       duration: "Jun 2023 - Aug 2023",
       description:
-        "Engineered AWS Lambda functions in Node.js to transform internal REST API account data and integrate with external vendor systems, enabling detection of recurring subscriptions through transactional pattern analysis. Deployed and automated extraction of key details from external vendor API response for client facing account insights.",
+        "Engineered AWS Lambda functions in Node.js to transform internal REST API account data and integrate with external vendor systems, enabling detection of recurring subscriptions through transactional pattern analysis.\nDeployed and automated extraction of key details from external vendor API response for client facing account insights.",
     },
   ],
 };

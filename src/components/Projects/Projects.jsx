@@ -3,6 +3,8 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import "./Projects.css";
 import { projects } from "../../data/portfolio";
 import getColorClass from "../../utils/getColorClass";
+import ReactMarkdown from "react-markdown";
+
 const Projects = () => {
   const { title, personalProjects } = projects;
   return (
@@ -12,7 +14,9 @@ const Projects = () => {
         {personalProjects.map((project, index) => (
           <article className="project-card" key={index}>
             <h3 className="project-title">{project.title}</h3>
-            <p className="project-description">{project.description}</p>
+            <ReactMarkdown className="project-description">
+              {project.description}
+            </ReactMarkdown>
             <div className="technology-stack">
               {project.technologies.map((tech, index) => (
                 <span className={`${getColorClass(tech)}`} key={index}>

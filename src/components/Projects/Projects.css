@@ -47,10 +47,16 @@
 
 .container-grid .project-card .project-description {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 2rem;
   text-align: justify;
+  white-space: pre-line;
 }
+
+.container-grid .project-card .project-description p {
+  margin-bottom: 0.5rem;
+}
+
 .container-grid .project-card .technology-stack {
   font-weight: 500;
   margin-bottom: 2rem;
