@@ -1,56 +1,40 @@
+# John Yuan - Portfolio
 
-# Minimal React Portfolio
+## About Me
 
-it is a minimal React portfolio that you can use to present yourself and list your projects, experiences and skills.
+I am a MS/BS Computer Science student at UNC Chapel Hill with a strong background in software engineering and cloud technologies. I'm passionate about building innovative solutions that solve real-world problems.
 
-## Demo
+With experience at Truist Financial as a Software Engineering Intern and as a Teaching Assistant at UNC Computer Science Department, I've developed skills in web development, cloud architecture, and data science.
 
-https://minimal-reactjs-portfolio.netlify.app/
+## Education
 
-![Animation](https://user-images.githubusercontent.com/30008865/178179020-20ec6512-415f-4f44-8982-84d85c7c46a3.gif)
+- **University of North Carolina at Chapel Hill** (Aug 2021 – May 2026)
+  - M.S. & B.S. in Computer Science
+  - GPA: 3.9/4.0
 
+## Experience
 
-## Colors 
+- **Truist Financial** - Software Engineering Intern (Summer 2024)
+  - Enhanced online banking virtual assistant with AWS Lambda functions
+  - Automated purging of outdated records in DynamoDB via CloudFormation
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Ligh theme text color |  #000000 |
-| Ligh theme bg color |  #ffffff |
-| Dark theme text color | #ffffff |
-| Dark theme bg color |  #000000 |
+- **UNC Computer Science Department** - Teaching Assistant (Aug 2023 – Dec 2024)
+  - Facilitated learning for over 300 students in Computer Organization and Digital Logic
 
+- **Carolina Housing** - Residential Computing Consultant Manager (Nov 2022 – Present)
+  - Lead and mentor 25 employees in university housing technology maintenance
 
-## Features
+## Skills
 
-- Light/dark mode toggle
-- Minimal desgin
-- Customizable
+- **Languages**: Python, SQL, Java, JavaScript, TypeScript, C, System Verilog, MIPS
+- **Technologies**: Git, Node.js, React.js, Angular, AWS, Docker, Linux, HTML/CSS
 
+## Connect With Me
 
-## Sections
-- Navbar
-- About
-- Projects
-- Experience
-- Skills
-- Contact
-- Footer
+- [GitHub](https://github.com/yuan25j)
+- [LinkedIn](https://www.linkedin.com/in/johnyuan2026/)
+- Email: johnyuan2021@gmail.com
 
+---
 
-## Installation
-
-Install react-personal-portfolio with npm
-
-
-```
-  git clone https://github.com/shehabshalan/react-personal-portfolio
-  cd react-personal-portfolio
-```
-```
-  npm run dev
-```
-
-*Note: I used Vite*
-
-## Tech Stack
-HTML, CSS, React, react-icons
+Visit my portfolio at: [https://yuan25j.github.io/portfolio/](https://yuan25j.github.io/portfolio/)
