@@ -64,7 +64,7 @@ const experience = {
       title: "Software Engineering Intern",
       company: "Truist Financial",
       duration: "Jun 2024 - Aug 2024",
-      logo: "/images/truist.png",
+      logo: "../../assets/truist.png",
       description:
         "Enhanced the online banking virtual assistant by consolidating shared code across AWS Lambda functions written in Node.js, validating end-to-end functionality, and reducing build times—saving over 200 developer hours monthly.\nAutomated the purging of 30,000 daily outdated records in DynamoDB via CloudFormation, improving data hygiene and operational efficiency across multiple deployments.",
     },
@@ -72,7 +72,7 @@ const experience = {
       title: "Teaching Assistant",
       company: "UNC Computer Science Department",
       duration: "Aug 2023 - Dec 2024",
-      logo: "/images/uncCompSci.png",
+      logo: "../../assets/uncCompSci.png",
       description:
         "Facilitated learning for over 300 students in Computer Organization and Digital Logic by conducting office hours, devising assessment questions, and evaluating lab assignments using MIPS assembly, System Verilog, and C.",
     },
@@ -80,7 +80,7 @@ const experience = {
       title: "Residential Computing Consultant Manager",
       company: "Carolina Housing",
       duration: "Nov 2022 - Present",
-      logo: "/images/carolina Housing.png",
+      logo: "../../assets/carolina Housing.png",
       description:
         "Lead and mentor 25 employees in the maintenance of university housing technology.\nOversee operational logistics, including scheduling, hiring, maintenance of equipment, and new policy creation for the Carolina Gaming Arena.\nDirect and train teammates to ensure adherence to the Service Level Agreement.",
     },
@@ -88,7 +88,7 @@ const experience = {
       title: "Software Engineering Intern",
       company: "Truist Financial",
       duration: "Jun 2023 - Aug 2023",
-      logo: "/images/truist.png",
+      logo: "../../assets/truist.png",
       description:
         "Engineered AWS Lambda functions in Node.js to transform internal REST API account data and integrate with external vendor systems, enabling detection of recurring subscriptions through transactional pattern analysis.\nDeployed and automated extraction of key details from external vendor API response for client facing account insights.",
     },
