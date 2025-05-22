@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import { skills } from "../../data/portfolio";
-import getColorClass from "../../utils/getColorClass";
+
 const Skills = () => {
   const { title, mySkills } = skills;
   return (
@@ -13,8 +13,8 @@ const Skills = () => {
             <h3 className="skills-title">{skill.title}</h3>
             <div className="skills-stack">
               {skill.skills.map((skill, index) => (
-                <span className={`${getColorClass(skill)}`} key={index}>
-                  {skill}
+                <span key={index}>
+                  {skill.replace("#", "")}
                 </span>
               ))}
             </div>

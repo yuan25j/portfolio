@@ -2,7 +2,6 @@ import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import "./Projects.css";
 import { projects } from "../../data/portfolio";
-import getColorClass from "../../utils/getColorClass";
 import ReactMarkdown from "react-markdown";
 
 const Projects = () => {
@@ -19,8 +18,8 @@ const Projects = () => {
             </ReactMarkdown>
             <div className="technology-stack">
               {project.technologies.map((tech, index) => (
-                <span className={`${getColorClass(tech)}`} key={index}>
-                  {tech}
+                <span key={index}>
+                  {tech.replace("#", "")}
                 </span>
               ))}
             </div>

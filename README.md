@@ -2,7 +2,7 @@
 
 ## About Me
 
-I am a MS/BS Computer Science student at UNC Chapel Hill with a strong background in software engineering and cloud technologies. I'm passionate about building innovative solutions that solve real-world problems.
+I am a MS Computer Science student at UNC Chapel Hill with a strong background in software engineering and cloud technologies. I'm passionate about building innovative solutions that solve real-world problems.
 
 With experience at Truist Financial as a Software Engineering Intern and as a Teaching Assistant at UNC Computer Science Department, I've developed skills in web development, cloud architecture, and data science.
 

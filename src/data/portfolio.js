@@ -1,7 +1,7 @@
 const about = {
   title: "Hi 👋 , I am John Yuan",
   description:
-    "I'm a MS/BS Computer Science student at UNC Chapel Hill with a strong background in software engineering. I'm passionate about building innovative solutions and have experience with web development, cloud technologies, and data science.",
+    "I'm a MS Computer Science student at UNC Chapel Hill. I'm passionate about building technologies and have experience in software engineering, cloud technologies, and data science, and LLMs. In my free time, I enjoy cooking, going to the gym, and reading.",
   github: "https://github.com/yuan25j",
   linkedin: "https://www.linkedin.com/in/johnyuan2026/",
   cv: "https://yuan25j.github.io/portfolio",
@@ -27,8 +27,8 @@ const projects = {
       description:
         "Designed and implemented an integer linear programming system using Python to generate optimal class schedules based on professor availabilities, room capacities, and scheduling constraints.\nDeveloped a robust database system using SQLite3 and built a responsive frontend with React.js, HTML, and CSS.\nIntegrated secure login functionality and automated deployment with GitHub Actions, following a CI/CD development lifecycle.",
       technologies: ["#Python", "#SQLite3", "#React.js", "#HTML/CSS", "#GitHub Actions"],
-      github: "https://github.com/yuan25j/portfolio",
-      demo: "#",
+      github: "https://github.com/JustinIndla/COMP523",
+      demo: "https://www.youtube.com/watch?v=ZzZe8Dis96Y",
     },
     {
       title: "Comparative Analysis of LLM Performance vs Traditional ML Techniques",
@@ -37,8 +37,8 @@ const projects = {
       description:
         "Conducted an empirical comparison of Large Language Models (LLMs) and traditional methods such as Logistic Regression, Support Vector Machines (SVMs), and Random Forests for text classification tasks.\nEvaluated performance using F1 Score, Precision, and Recall; identified performance trade-offs and analyzed root causes of misclassification across models.",
       technologies: ["#Python", "#LLMs", "#Machine Learning", "#Data Analysis"],
-      github: "https://github.com/yuan25j/IdiosyncrasiesInLLMs",
-      demo: "#",
+      github: "https://github.com/connor2702/comp-560-final-project",
+      demo: "https://github.com/connor2702/comp-560-final-project/blob/main/Final_Report.pdf",
     },
     {
       title: "RAG Clickbait Generator",
@@ -64,6 +64,7 @@ const experience = {
       title: "Software Engineering Intern",
       company: "Truist Financial",
       duration: "Jun 2024 - Aug 2024",
+      logo: "/images/truist.png",
       description:
         "Enhanced the online banking virtual assistant by consolidating shared code across AWS Lambda functions written in Node.js, validating end-to-end functionality, and reducing build times—saving over 200 developer hours monthly.\nAutomated the purging of 30,000 daily outdated records in DynamoDB via CloudFormation, improving data hygiene and operational efficiency across multiple deployments.",
     },
@@ -71,6 +72,7 @@ const experience = {
       title: "Teaching Assistant",
       company: "UNC Computer Science Department",
       duration: "Aug 2023 - Dec 2024",
+      logo: "/images/uncCompSci.png",
       description:
         "Facilitated learning for over 300 students in Computer Organization and Digital Logic by conducting office hours, devising assessment questions, and evaluating lab assignments using MIPS assembly, System Verilog, and C.",
     },
@@ -78,6 +80,7 @@ const experience = {
       title: "Residential Computing Consultant Manager",
       company: "Carolina Housing",
       duration: "Nov 2022 - Present",
+      logo: "/images/carolina Housing.png",
       description:
         "Lead and mentor 25 employees in the maintenance of university housing technology.\nOversee operational logistics, including scheduling, hiring, maintenance of equipment, and new policy creation for the Carolina Gaming Arena.\nDirect and train teammates to ensure adherence to the Service Level Agreement.",
     },
@@ -85,6 +88,7 @@ const experience = {
       title: "Software Engineering Intern",
       company: "Truist Financial",
       duration: "Jun 2023 - Aug 2023",
+      logo: "/images/truist.png",
       description:
         "Engineered AWS Lambda functions in Node.js to transform internal REST API account data and integrate with external vendor systems, enabling detection of recurring subscriptions through transactional pattern analysis.\nDeployed and automated extraction of key details from external vendor API response for client facing account insights.",
     },
