@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 import truistLogo from "../../assets/truist.png";
 import uncCompSciLogo from "../../assets/uncCompSci.png";
 import carolinaHousingLogo from "../../assets/carolina Housing.png";
+import wellsFargoLogo from "../../assets/Wells_Fargo_Logo_(2020).svg.png";
 
 const Experience = () => {
   const { title, experiences } = experience;
@@ -13,6 +14,8 @@ const Experience = () => {
   const getLogoForCompany = (company) => {
     if (company.includes("Truist")) {
       return truistLogo;
+    } else if (company.includes("Wells Fargo")) {
+      return wellsFargoLogo;
     } else if (company.includes("UNC")) {
       return uncCompSciLogo;
     } else if (company.includes("Carolina")) {

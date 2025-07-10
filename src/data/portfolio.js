@@ -1,5 +1,5 @@
 const about = {
-  title: "Hi 👋 , I am John Yuan",
+  title: "Hi 👋 , I'm John",
   description:
     "I'm a MS Computer Science student at UNC Chapel Hill. I'm passionate about building technologies and have experience in software engineering, cloud technologies, and data science, and LLMs. In my free time, I enjoy cooking, going to the gym, and reading.",
   github: "https://github.com/yuan25j",
@@ -60,6 +60,14 @@ const projects = {
 const experience = {
   title: "Experience",
   experiences: [
+    {
+      title: "Software Engineering Intern",
+      company: "Wells Fargo",
+      duration: "June 2025 - Aug 2025",
+      logo: "../../assets/Wells_Fargo_Logo_(2020).svg.png",
+      description:
+        "Engineered four end-to-end ETL data pipelines in Python to process over 400,000 entries weekly from internal SQL databases\nDeveloped robust batch scripts to automate the entire data workflow, streamlining the process from data extraction to loading into target tables/generating output files\nAssist with new Proof of Concepts by helping clean, process, and format data for business partners",
+    },
     {
       title: "Software Engineering Intern",
       company: "Truist Financial",
